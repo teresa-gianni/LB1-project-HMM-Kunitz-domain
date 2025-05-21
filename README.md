@@ -48,7 +48,7 @@ This phase involves downloading protein sequences from UniProt and PDB.
         ```
         (ft_domain:Kunitz) AND (reviewed:true) AND (xref:pfam-PF00014) NOT (organism_id:9606)
         ```
-        Output: `not_human_kunitz.fasta` (377 sequences)
+        Output: `nonhuman_kunitz.fasta` (377 sequences)
     * **All Kunitz sequences:**
         ```
         (ft_domain:Kunitz) AND (reviewed:true) AND (xref:pfam-PF00014)
